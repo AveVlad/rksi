@@ -1,0 +1,77 @@
+@charset "utf-8";
+@import "header.css";
+@import "content.css";
+@import "footer.css";
+@import "slider.css";
+
+*  {
+	margin: 0;
+	padding: 0;
+}
+body {
+    background: #440404 url("../images/bg_top_img.jpg") no-repeat center top;
+    font: 13px/20px Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+
+}
+button {
+	border: none;
+	outline: none;
+}
+.fix {
+	width: 900px;
+	min-height: 50px;
+	position: relative;
+	margin: 0 auto;
+}
+.mr {
+	margin-right: 0;
+}
+.red {
+	color: red;
+}
+.clear {
+    clear: both;
+
+}
+.c {
+	text-align: center;
+}
+input {
+    border: 1px solid #000;  outline: none;
+    padding-left: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+textarea {
+    border: 1px solid #000;
+    outline: none;
+    padding-left: 6px;
+    font: 13px/20px Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+h3 {}
+h4 {}
+
+.btn {
+    background: #a90003; 
+	color: #fff; 
+    height: 36px;
+    display: inline-block;
+    font-size: 18px;
+	padding: 6px 15px;
+    cursor: pointer;
+}
+a.btn {
+    height: 24px;
+    position: relative;
+    top: -2px;
+}

@@ -1,0 +1,95 @@
+.header {
+    height: 169px;
+}
+.header  .logo {
+	width: 249px;
+	height: 90px;
+	position: absolute;
+	top: 33px;
+	background: url("../images/logo1.png");
+}
+.header  .menu {
+	width: 776px;
+	height: 35px;
+	position: absolute;
+	right: -3px;
+	top: 110px;
+	text-align: right;
+}
+.header  .menu li {
+    display: inline-block;
+    margin-left: 8px;
+}
+.header  .menu  a {
+    font-size: 19px;
+    font-weight: bold;
+    padding: 6px 15px;
+    color: #aaa;
+}
+.header  .menu  .active a {
+    color: #fff;
+    background: #aa0000;
+}
+.header  .menu  a:hover {
+    color: #fff;
+    background: #aa0000;
+}
+.header  .contact {
+    width: 240px;
+    height: 50px;
+    position: absolute;
+    right: 15px;
+    top: 44px;
+    text-align: right;
+}
+.header  .contact  li {
+    display: inline-block;
+    margin-left: 40px;
+    position: relative;
+}
+.header  .contact  a {
+    position: relative;
+}
+.header  .contact   .line:before{
+	width: 1px;
+	height: 20px;
+	background: #dc0000;
+	content: "";
+	position: absolute;
+	right: -25px;
+	top: -2px;
+}
+.icon1 {
+	display: ibline-block;
+	width: 15px;
+	height: 13px;
+	background: url("../images/icon_1.gif");
+}
+.icon2 {
+	display: inline-block;
+	width: 15px;
+	height: 13px;
+	background: url("../images/icon_2.gif");
+}
+.icon3 {
+	display: ibline-block;
+	width: 15px;
+	height: 13px;
+	background: url("../images/icon_3.gif");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

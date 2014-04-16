@@ -1,0 +1,142 @@
+.top  {
+    height: 367px;
+}
+.box {
+    display: block;
+    width: 280px;
+    background: #200000 url("../images/box_top.png") no-repeat center top;
+    display: block;
+    float: left;
+    margin-right: 30px;
+    min-height: 284px;
+    color: #fff;
+}
+.box:hover .boxContent  {
+    color: #a60304;
+}
+.box:hover .boxRead  {
+    background: #770405;
+    color: #fff;
+}
+.boxContent {
+    padding: 15px 20px;
+    font-size: 15px;
+}
+.boxContent  img{
+    display: block;
+    margin: 15px 0;
+    max-height: 100px;
+}
+.boxName {
+    font-size: 26px;
+    color: #a60304;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.boxRead {
+    display: block;
+    width: 116px;
+    background: #a80002;
+    font-size: 15px;
+    padding: 4px 10px;
+    margin-top: 10px;
+}
+.afterLine {
+    width: 100%;
+    position: relative;
+    height: 38px;
+    background: url("../images/bg_bot.jpg");
+}
+.content {
+	background: #faf3ed;
+}
+.contentBlock {
+    padding: 25px 0;
+    font-size: 16px;
+}
+.contentBlock  p {
+    text-indent: 35px;
+    margin-bottom: 15px;
+}
+
+.sliderName {
+    font-size: 29px;
+}
+
+.contentLeft {
+    width: 271px;
+    position: relative;
+    float: left;
+    border-right: 1px solid #ccc;
+    padding: 031px 18px 31px 0px;
+    font-size: 15px;
+}
+.contentRight p {
+    text-indent: 15px;
+    margin-bottom: 15px;
+}
+.contentRight {
+    width: 569px;
+    float: left;
+    position: relative;
+    padding: 31px 20px 31px 20px;
+    font-size: 15px;
+}
+.contentRight ul{
+    margin: 22px;
+
+}
+.contactForm  {
+    background: #240000 url("../images/box_top2.png") no-repeat center top;
+    height: 415px;
+    color: #fff;
+}
+.contactFormLeft {
+    width: 143px;
+    vertical-align: top;
+}
+.contactContent .succses {
+    font-size: 42px;
+    position: relative;
+    top: 130px;
+    text-align: center;
+	display: none;
+}
+.contactContent {
+    padding: 30px;
+}
+.contactForm table {
+    width: 100%;
+}
+.contactForm tr {
+    display: block;
+    margin-bottom: 5px;
+}
+.contactForm input {
+    width: 380px;
+    padding-top: 4px;  
+    padding-bottom: 4px;
+
+}
+.contactForm textarea {
+    display: block;
+    width: 672px;
+
+    padding-top: 6px;  padding-bottom: 2px;
+    min-height: 187px;
+}
+.contactFormFooter {
+    position: relative;
+    top: 11px;
+    padding-right: 10px;
+    text-align: right;
+}
+.contactFormFooter a {
+    margin-right: 20px;
+}
+
+
+
+
+
+
